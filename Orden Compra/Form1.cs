@@ -15,5 +15,21 @@ namespace Orden_Compra
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            cmbAderezo.SelectedIndex = 0;
+            rbHaG.Checked = true;
+            rbHoG.Checked = true;
+            chkIngHa1.Checked = true;
+            chkIngHo1.Checked = true;
+        }
+
+        int contador = 0;
+
+        private void btnEnviar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

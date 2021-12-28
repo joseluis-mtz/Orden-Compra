@@ -241,6 +241,7 @@
             this.btnEnviar.TabIndex = 8;
             this.btnEnviar.Text = "ENVIAR";
             this.btnEnviar.UseVisualStyleBackColor = false;
+            this.btnEnviar.Click += new System.EventHandler(this.btnEnviar_Click);
             // 
             // Form1
             // 
@@ -255,6 +256,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
