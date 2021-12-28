@@ -229,13 +229,13 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(98, 13);
             this.label3.TabIndex = 9;
-            this.label3.Text = "Nombre del cleinte:";
+            this.label3.Text = "Nombre del cliente:";
             // 
             // btnEnviar
             // 
             this.btnEnviar.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnEnviar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnEnviar.Location = new System.Drawing.Point(469, 378);
+            this.btnEnviar.Location = new System.Drawing.Point(452, 376);
             this.btnEnviar.Name = "btnEnviar";
             this.btnEnviar.Size = new System.Drawing.Size(75, 23);
             this.btnEnviar.TabIndex = 8;
@@ -254,6 +254,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
